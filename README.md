@@ -27,7 +27,7 @@ npm install.
 ## Ejecutar el Servidor en Desarrollo
 ng serve
 
-Navega a http://localhost:4200/. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
+Navega a http://localhost:4200/.
 
 
 
