@@ -1,0 +1,15 @@
+<h2>Lista de Personajes (Staff)</h2>
+<ul class="list-group">
+  <li class="list-group-item d-flex align-items-center" *ngFor="let item of servicesService.posts">
+    <!-- Si el personaje tiene imagen, la mostramos; si no, mostramos una por defecto -->
+    <img [src]="item.image ? item.image : 'https://www.softzone.es/app/uploads-softzone.es/2018/04/guest.png'" 
+     [alt]="item.name" 
+     style="width: 50px; height: 50px; border-radius: 50%; margin-right: 15px; object-fit: cover; border: 2px solid #740001;">
+
+    
+    <div>
+      <strong>{{ item.name }}</strong> <br>
+      <small class="text-muted">{{ item.house || 'Sin casa' }}</small>
+    </div>
+  </li>
+</ul>

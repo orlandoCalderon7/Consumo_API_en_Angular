@@ -1,0 +1,16 @@
+.list-group-item {
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+img {
+  border: 2px solid #740001; /* Color tipo Gryffindor */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
