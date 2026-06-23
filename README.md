@@ -8,7 +8,7 @@
 - **Renderizado Dinámico:** Uso de directivas como `*ngFor` y `*ngIf`.
 - **Interfaz Responsiva:** Diseño básico con imágenes circulares y estados de "Sin casa".
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - **Angular 18+** (Framework principal)
 - **TypeScript** (Lógica de programación)
 - **HTML5 & CSS3** (Estructura y estilos personalizados)
